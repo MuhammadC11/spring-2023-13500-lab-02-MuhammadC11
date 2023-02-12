@@ -3,11 +3,11 @@
 int main()
 {
 
-    std::cout << "The numbers in range 1-9 not including 9 are: ";
-    print_interval(1, 9);
+    std::cout << "The numbers in range -5-10 not including 10 are: ";
+    print_interval(-5, 10);
     std::cout << std::endl;
-    std::cout << "The numbers in range 10-20 not including 20 are: ";
-    print_interval(10, 20);
+    std::cout << "The numbers in range 0-20 not including 20 are: ";
+    print_interval(0, 20);
     std::cout << std::endl;
     std::cout << "The numbers in range 13-25 not including 25 are: ";
     print_interval(13, 25);

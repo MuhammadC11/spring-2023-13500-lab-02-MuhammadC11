@@ -10,10 +10,10 @@ int main()
     }
     std::cout << std::endl
               << std::endl;
-    std::cout << "input an index to change: ";
+    std::cout << "input an index to change: " << std::endl;
     int index;
     std::cin >> index;
-    std::cout << "input a new value: ";
+    std::cout << "input a new value: " << std::endl;
     int value;
     std::cin >> value;
     do
@@ -31,9 +31,9 @@ int main()
             }
             std::cout << std::endl
                       << std::endl;
-            std::cout << "input an index to change: ";
+            std::cout << "input an index to change: " << std::endl;
             std::cin >> index;
-            std::cout << "input a new value: ";
+            std::cout << "input a new value: " << std::endl;
             std::cin >> value;
         }
         else
